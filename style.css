@@ -1,0 +1,183 @@
+/*
+Theme Name: Customized Theme for Website: Dhamma
+Theme URI: https://github.com/
+Author: A.Dridi
+Author URI: https://github.com/a-dridi
+Description: Customized Theme with custom functionality such as a multilingual library. Custom post type ("bibliotheque"), and more.  
+Version: 1.0
+License: A.Dridi
+License URI: 
+Tags: dhamma responsive website modern
+Text Domain: dhamma
+*/
+
+
+
+.mobile-site-header {
+    padding-top: 0px !important;
+}
+
+.dhamma-header-section {
+    background-color: #f4b400 !important;
+    height: 50px !important;
+}
+
+@media (max-width: 930px) {
+    .dhamma-header-section {
+        height: 50px !important;
+    }
+}
+
+.dhamma-header-section-mobile {
+    background-color: #f4b400;
+    margin-bottom: 25px;
+}
+
+.dhamma-header-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.dhamma-header-content-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin: auto;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.dhamma-header-content>div {
+    flex-grow: 1;
+    padding-right: 5px;
+}
+
+.dhamma-header-right-widget-area>ul {
+    display: inline-flex;
+}
+
+.dhamma-header-content-mobile>div {
+    flex-grow: 1;
+    padding-right: 5px;
+}
+
+.lang-item {
+    padding-right: 25px;
+    list-style-type: none;
+}
+
+.lang-item>a {
+    color: white !important;
+}
+
+#dhamma-header-widget-area-middle {
+    margin: auto;
+    justify-self: center;
+    display: block;
+    text-align: center;
+}
+
+#dhamma-header-widget-area-right {
+    float: right;
+    text-align: right;
+}
+
+#main {
+    word-wrap: break-word
+}
+
+.home .entry-header {
+    display: none;
+}
+
+.mobile-site-header {
+    padding-top: 0px !important;
+}
+
+.dhamma-header-section {
+    background-color: orange;
+}
+
+.dhamma-header-section-mobile {
+    background-color: orange;
+    margin-bottom: 25px;
+}
+
+.dhamma-header-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.dhamma-header-content-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin: auto;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.dhamma-header-content>div {
+    flex-grow: 1;
+    padding-right: 5px;
+}
+
+.dhamma-header-content-mobile>div {
+    flex-grow: 1;
+    padding-right: 5px;
+}
+
+.lang-item {
+    padding-right: 25px;
+    list-style-type: none;
+}
+
+.lang-item>a {
+    color: white !important;
+}
+
+#dhamma-header-widget-area-middle {
+    margin: auto;
+    justify-self: center;
+    display: block;
+    text-align: center;
+}
+
+#dhamma-header-widget-area-right {
+    float: right;
+    text-align: right;
+}
+
+#main {
+    word-wrap: break-word
+}
+
+.home .entry-header {
+    display: none;
+}
+
+@media (min-width: 910px) {
+    #secondary {
+        padding-top: 80px !important;
+    }
+}
+
+@media (max-width: 370px) {
+    .dhamma-header-right-widget-area>ul {
+        display: block !important;
+    }
+}
